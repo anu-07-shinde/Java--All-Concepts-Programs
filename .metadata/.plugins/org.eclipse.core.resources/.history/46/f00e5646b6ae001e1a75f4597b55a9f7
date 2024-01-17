@@ -1,0 +1,41 @@
+package CheckIdentical;
+
+import java.util.*;
+
+public class IdenticalOrNot {
+	
+	Node head;
+	
+	class Node{
+		
+		int data;
+		Node next;
+		
+		
+		Node(int data)
+		{
+			this.data = data;
+			this.next = null;
+		}
+	}
+	
+	boolean areIdentical(LinkedList listb)
+	{
+		Node a = this.head, b = listb.head;
+		
+		while(a != null && b != null)
+		{
+			if(a.data != b.data)
+			{
+				return false;
+			}
+			
+			
+			a = a.next;
+			b = b.next;
+		}
+		
+		return(a == null && b == null)
+	}
+
+}

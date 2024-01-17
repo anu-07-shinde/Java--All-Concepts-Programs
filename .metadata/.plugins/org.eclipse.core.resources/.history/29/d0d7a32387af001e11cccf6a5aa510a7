@@ -1,0 +1,39 @@
+package MaximumOcuured;
+
+public class MaximumOccured {
+	
+	public static void main(String[] args) {
+		
+		String s = "abbccc";
+		
+		int[] array = new int[127];
+		
+		for(int i=0; i<s.length()-1; i++)
+		{
+			array[s.charAt(i)] = array[s.charAt(i)]+1;
+		}
+		
+		
+		int max = -1; 
+		char c = ' ';
+		
+		for(int i=0; i<s.length(); i++)
+		{
+			
+			
+			if(max < array[s.charAt(i)])
+			{
+				max = array[s.charAt(i)];
+				
+				c = s.charAt(i);
+			}
+			
+		}
+		
+		System.out.println("Maximum: "+c);
+		
+		
+		
+	}
+
+}

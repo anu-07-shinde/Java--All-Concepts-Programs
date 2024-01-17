@@ -1,0 +1,4 @@
+package Pattern;
+
+public enum Pattern6 {
+	

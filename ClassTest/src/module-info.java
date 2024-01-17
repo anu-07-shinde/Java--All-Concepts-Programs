@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author syogi
+ *
+ */
+module ClassTest {
+}

@@ -1,0 +1,5 @@
+package AbtractClassInterface;
+
+public interface Bank {
+
+}

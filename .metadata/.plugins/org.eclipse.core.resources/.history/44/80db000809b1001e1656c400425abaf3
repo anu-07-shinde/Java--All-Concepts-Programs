@@ -1,0 +1,14 @@
+package RealExample;
+
+class Bicycle implements Vehicle
+{
+	
+}
+
+public class Demo {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

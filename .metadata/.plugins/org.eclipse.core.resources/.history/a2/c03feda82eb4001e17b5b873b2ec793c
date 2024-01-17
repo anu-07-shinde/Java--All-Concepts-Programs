@@ -1,0 +1,14 @@
+package Pattern;
+
+public class AppuPatterns {
+	
+	public static void main(String[] args) {
+		
+		for(int i=6; i>0; i--)
+		{
+			System.out.print("*");
+		}
+		
+	}
+
+}

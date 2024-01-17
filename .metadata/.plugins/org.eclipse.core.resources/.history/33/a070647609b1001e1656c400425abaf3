@@ -1,0 +1,34 @@
+package RealExample;
+
+class Bicycle implements Vehicle
+{
+
+	@Override
+	public void gearChange(int gear) {
+		
+		
+		
+		
+	}
+
+	@Override
+	public void speedUp(int a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void breakDown(int a) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+public class Demo {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

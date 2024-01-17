@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Methods.EsEven&apos; to &apos;IsEven&apos;&#x0D;&#x0A;- Original project: &apos;JAVA_PROGRAMS&apos;&#x0D;&#x0A;- Original element: &apos;Methods.EsEven&apos;&#x0D;&#x0A;- Renamed element: &apos;Methods.IsEven&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;EsEven&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Methods{EsEven.java[EsEven" matchStrategy="1" name="IsEven" qualified="false" references="true" similarDeclarations="false" stamp="1680527994321" textual="false" version="1.0"/>
+</session>

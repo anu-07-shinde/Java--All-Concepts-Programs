@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;CollectionFramework.StudentData&apos; to &apos;Student&apos;&#x0D;&#x0A;- Original project: &apos;Collection-Framework&apos;&#x0D;&#x0A;- Original element: &apos;CollectionFramework.StudentData&apos;&#x0D;&#x0A;- Renamed element: &apos;CollectionFramework.Student&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StudentData&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;CollectionFramework{StudentData.java[StudentData" matchStrategy="1" name="Student" qualified="false" references="true" similarDeclarations="false" stamp="1683132195818" textual="false" version="1.0"/>
+</session>

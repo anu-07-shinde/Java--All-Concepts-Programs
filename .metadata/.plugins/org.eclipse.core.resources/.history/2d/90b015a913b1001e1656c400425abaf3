@@ -1,0 +1,30 @@
+package Calculation;
+
+public class Test1 {
+	
+	int a;
+	int b;
+	
+	Test1()
+	{
+		
+		System.out.println("This is default constructor");
+	}
+
+	public Test1(int i, int j) {
+		
+		this.a = i;
+		this.b = j;
+		
+		System.out.println("Parameterized Constructor");
+		
+	}
+	
+	public static void main(String[] args) {
+		Test1 t = new Test1();
+		
+	}
+
+
+
+}

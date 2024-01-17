@@ -1,0 +1,34 @@
+package Calculation;
+
+public class Test3 {
+	
+	
+	int x=2;
+	int y=3;
+	
+	Test3()
+	{
+		x = 10;
+		y = 20;
+	}
+	
+	Test3 get()
+	{
+		return this;
+	}
+	
+	void display()
+	{
+		System.out.println("x: "+x+" "+"y: "+y);
+	}
+	
+	public static void main(String[] args) {
+		Test3 t = new Test3();
+		t.get().display();
+//		t.get();
+
+
+		
+		
+	}
+}

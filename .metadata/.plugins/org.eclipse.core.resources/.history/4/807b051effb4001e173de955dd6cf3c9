@@ -1,0 +1,22 @@
+package ArrayListStack;
+import java.util.*;
+
+public class Example {
+	
+	class Stack
+	{
+		
+	ArrayList<Integer> list = new ArrayList<>();
+		
+		public void push(int data)
+		{
+			list.add(data);
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+	
+	}
+
+}

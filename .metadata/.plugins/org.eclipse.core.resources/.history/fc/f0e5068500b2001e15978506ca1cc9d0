@@ -1,0 +1,27 @@
+package ArrayListDemo;
+
+import java.util.ArrayList;
+
+public class AddElements {
+	
+	public static void main(String[] args) {
+		
+		
+		ArrayList list1 = new ArrayList();
+		list1.add(101);
+		list1.add("Anu");
+		list1.add("Shinde")
+		
+		
+		System.out.println("ArrayList1: "+list1);
+		
+		System.out.println("*********************");
+		
+		
+		ArrayList list2 = new ArrayList(list1);
+		
+		System.out.println(list2);
+		
+	}
+
+}

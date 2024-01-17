@@ -1,0 +1,62 @@
+package RealExample;
+
+class Bicycle implements Vehicle
+{
+	int speed;
+	int gear;
+	@Override
+	public void gearChange(int gear) {
+		
+		this.gear=gear;
+		
+		
+	}
+
+	@Override
+	public void speedUp(int increment) {
+
+		speed = speed + increment;
+		
+	}
+
+	@Override
+	public void breakDown(int decrement) {
+		
+		speed = speed - decrement;
+
+		
+	}
+}
+	
+	class Motorcycle implements Vehicle
+	{
+
+		@Override
+		public void gearChange(int a) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void speedUp(int a) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void breakDown(int a) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+	
+
+
+public class Demo {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

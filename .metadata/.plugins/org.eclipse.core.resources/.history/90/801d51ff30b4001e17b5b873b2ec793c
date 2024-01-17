@@ -1,0 +1,47 @@
+package ProposeToCrush;
+
+import java.util.Scanner;
+
+public class ProposalToCrush<using> {
+	
+	using Heart;
+	using HeartFellings;
+
+	public static void main(String[] args) {
+		String input;
+		
+		try
+		{
+			System.out.println("Me: I love you...");
+			System.out.println("Do you love me?, Yes / No: ");
+			System.out.println();
+			
+			Scanner sc = new Scanner(System.in);
+			System.out.print("Crush:  ");
+			
+			input = sc.nextLine();
+			
+			if(input == "Yes")
+			{
+				
+				System.out.println("Love you too!");
+				
+			}
+			else 
+			{	
+				System.out.println();
+				System.out.print("Me: ");
+				System.out.print("I guess you have pressed wrong keyword. please try again!");
+				System.out.println("Even if you don't love me, you have to say yes Please!!!!!!!!!!!!!!!!!!!");
+				
+//				System.out.println("Love you too!");
+			}
+			
+			
+		}catch(Exception crush)
+		{
+			System.out.println("Even if you don't love me, you have to say yes Please!!!!!!!!!!!!!!!!!!!!");
+		}
+	}
+
+}
